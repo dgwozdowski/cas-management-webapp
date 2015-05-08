@@ -247,6 +247,11 @@
 	    <version>1.10.b1</version>
 	    <configuration>
 	        <header>${basedir}/src/header.txt</header>
+	        <skipExistingHeaders>true</skipExistingHeaders>
+	          <strictCheck>true</strictCheck>
+	          <headerDefinitions>
+	            <headerDefinition>${basedir}/src/license/header-definitions.xml</headerDefinition>
+	          </headerDefinitions>
 	        <aggregate>true</aggregate>
 	        <includes>
 	            <include>**/*.java</include>
