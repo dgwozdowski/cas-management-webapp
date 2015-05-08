@@ -29,7 +29,7 @@ Slightly modified version of Sun Checks that better matches the default code for
 	    <property name="severity" value="error"/>
 	    <property name="id" value="copyrightheader"/>
 	    <!--<property name="header" value="^/\*$\n^ \* Copyright \(c\) 20\d\d(-201\d)? Jasig$\n^ \*$\n^ \*.*Apache.*$\n^.*$\n^.*$\n^.*$\n^.*http://www\.apache\.org/licenses/LICENSE-2\.0$\n^.*$\n^.*$\n^.*$\n^.*$\n^.*$\n^.*License\.$\n^ \*/$"/>-->
-	    <property name="header" value="^/\*$\n^ \* Licensed \*/$"/>
+	    <property name="header" value="^Licensed?"/>
 	    <property name="fileExtensions" value="java" />
     </module> 
     
