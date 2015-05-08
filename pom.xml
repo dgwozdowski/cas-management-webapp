@@ -250,7 +250,7 @@
 	        <skipExistingHeaders>true</skipExistingHeaders>
 	          <strictCheck>true</strictCheck>
 	          <headerDefinitions>
-	            <headerDefinition>${basedir}/src/license/header-definitions.xml</headerDefinition>
+	            <headerDefinition>${basedir}/src/header-definitions.xml</headerDefinition>
 	          </headerDefinitions>
 	        <aggregate>true</aggregate>
 	        <includes>
