@@ -242,7 +242,7 @@
         </plugin>
         
         <plugin>
-      <groupId>org.complykit</groupId>
+      <groupId>com.mycila.maven-license-plugin</groupId>
       <artifactId>license-check-maven-plugin</artifactId>
       <version>0.4</version>
       <executions>
