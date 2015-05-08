@@ -246,7 +246,7 @@
 	    <artifactId>maven-license-plugin</artifactId>
 	    <version>1.10.b1</version>
 	    <configuration>
-	        <header>${basedir}/src/license/header.txt</header>
+	        <header>${basedir}/src/header.txt</header>
 	        <aggregate>true</aggregate>
 	        <includes>
 	            <include>**/*.java</include>
