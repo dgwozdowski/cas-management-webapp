@@ -254,7 +254,7 @@
 	          </headerDefinitions>
 	        <aggregate>true</aggregate>
 	        <includes>
-	            <include>**/*.java</include>
+	            <include>**/WiringTests.java</include>
 	        </includes>
 	    </configuration>
 	</plugin>
